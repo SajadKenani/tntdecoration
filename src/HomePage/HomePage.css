@@ -1,0 +1,1204 @@
+.myImage-img{
+    width: 100%;
+    height: 790px;
+    object-fit: cover;
+    
+    margin-bottom: -770px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+    opacity: 1;
+
+    
+}
+.facebookCircle-div{
+    width: 180px;
+    height: 47px;
+
+    padding-bottom: 10px;
+    
+    
+    margin-left: -180px;
+    position: relative;
+    margin-top: 300px;
+
+    padding-left: 95px;
+  
+    background-color: rgb(142, 142, 142);
+
+    transform: translate(0px, 0px);
+
+    animation-name: moveBack;
+    animation-duration: 0.2s;
+    animation-timing-function:ease;
+
+    padding-left: 100px;
+  
+}
+
+.facebookCircle-div:hover {
+    transform: translate(180px, 0px);
+    
+    animation-name: moveObject;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+
+    padding-left: -154px;
+
+}
+
+.instaCircle-div{
+    width: 180px;
+    height: 47px;
+
+    
+    
+    margin-left: -180px;
+    position: relative;
+
+    padding-left: 95px;
+    
+  
+
+    background-color: rgb(142, 142, 142);
+
+    transform: translate(0px, 0px);
+
+    animation-name: moveBack;
+    animation-duration: 0.2s;
+    animation-timing-function:ease;
+    padding-left: 100px;
+}
+
+.instaCircle-div:hover{
+transform: translate(180px, 0px);
+    
+animation-name: moveObject;
+animation-duration: 0.2s;
+animation-timing-function: ease-out;
+padding-left: -154px;
+}
+.facebookImage-img{
+    width: 50px;
+    height: 47px;
+ 
+
+    margin-left: 35px;
+    opacity: 0.9;
+    position: absolute;
+
+    background-color: rgba(161, 161, 161, 0.341);
+}
+
+
+.phoneCall-div{
+    width: 240px;
+    height: 47px;
+    padding-left: 100px;
+
+    margin-left: -195px;
+
+    background-color: rgb(184, 184, 184);
+    border-radius: 2px;
+
+    position: relative;
+    margin-top: 450px;
+    margin-bottom: -510px;
+
+    display: flex;
+
+    transform: translate(0px, 0px);
+
+    animation-name: moveBack;
+    animation-duration: 0.2s;
+    animation-timing-function:ease;
+
+}
+
+.feceBook-div{
+    width: 240px;
+    height: 47px;
+    padding-left: 100px;
+
+    margin-left: -195px;
+
+    background-color: rgb(184, 184, 184);
+    border-radius: 2px;
+
+    position: relative;
+    margin-top: 310px;
+    margin-bottom: -440px;
+
+    display: flex;
+
+    transform: translate(0px, 0px);
+
+    animation-name: moveBack;
+    animation-duration: 0.2s;
+    animation-timing-function:ease;
+}
+
+.insta-div{
+    width: 240px;
+    height: 47px;
+    padding-left: 100px;
+
+    margin-left: -195px;
+
+    background-color: rgb(184, 184, 184);
+    border-radius: 2px;
+
+    position: relative;
+    margin-top: 450px;
+    margin-bottom: -440px;
+
+    display: flex;
+
+    transform: translate(0px, 0px);
+
+    animation-name: moveBack;
+    animation-duration: 0.2s;
+    animation-timing-function:ease;
+}
+
+.feceBook-div:hover{
+    transform: translate(180px, 0px);
+    
+    animation-name: moveObject;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+}
+
+.insta-div:hover{
+    transform: translate(180px, 0px);
+    
+    animation-name: moveObject;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+}
+
+.phoneCall-div:hover{
+    transform: translate(180px, 0px);
+    
+    animation-name: moveObject;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+
+
+}
+
+  
+@keyframes moveObject {
+    from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(180px);
+    }
+
+  }
+
+@keyframes moveBack{
+    from {
+        transform: translateX(180px);
+      }
+
+      to {
+        transform: translateX(0);
+      }
+}
+
+.phoneCall-img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-bottom: -50px;
+    margin-left: 20px;
+}
+
+
+
+.myNumber-para{
+    padding: 2px;
+    margin-bottom: -10px;
+    margin-left: -50px;
+    width: 120px;
+    color: rgb(57, 57, 57);
+
+}
+
+.mainDiv0-div{
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 250px;
+    width: 550px;
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-start;
+    
+
+}
+
+.mainDiv1-div{
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 250px;
+    width: 550px;
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.mainPara0-para{
+    width: fit-content;
+    font-size: 30px;
+    font-family: "Impact", "fantasy";
+    text-shadow: 2px 2px 10px rgb(66, 66, 66);
+    text-align: start;
+    width: 550px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+.mainPara1-para{
+ 
+    font-size: 40px;
+    font-weight: 700;
+     
+    text-shadow: 2px 2px 10px rgb(66, 66, 66);
+    text-align: end;
+    width: 500px;
+   
+    margin-bottom: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(83, 83, 83);
+
+
+}
+
+.myPara0-para{
+
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 10px rgb(66, 66, 66);
+    color: rgb(227, 227, 227);
+    text-align: start;
+    width: 530px;
+    margin-bottom: 60px;
+
+ 
+   
+
+} 
+
+.myPara1-para{
+    font-size:17px;
+   
+   
+    text-shadow: 2px 2px 10px rgb(66, 66, 66);
+    text-align: end;
+    width: 500px;
+    margin-bottom: 60px;
+
+
+} 
+
+.myButton0-btn{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 255, 255);
+
+    border-radius: 5px;
+    border: 1px solid rgb(249, 187, 0);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+
+    margin-top: 12px;
+
+    animation-name: buttonAnimationReverse;
+    animation-duration: 0.2s;
+
+   
+
+}
+
+.myButton0-btn:hover{
+
+    background-color: rgb(249, 187, 0);
+    animation-name: buttonAnimation;
+    animation-duration: 0.2s;
+
+}
+
+.myButton1-btn{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 255, 255);
+
+
+    border-radius: 5px;
+    border: 1px solid rgb(249, 187, 0);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);  
+
+    margin-top: 12px;
+
+    animation-name: buttonAnimationReverse;
+    animation-duration: 0.2s;
+    
+}
+
+.myButton1-btn:hover{
+
+    background-color: rgb(249, 187, 0);
+    animation-name: buttonAnimation;
+    animation-duration: 0.2s;
+
+}
+
+@keyframes buttonAnimation {
+    from {background-color: rgba(249, 187, 0, 0);}
+    10%{background-color: rgba(249, 187, 0, 0.208);}
+    20%{background-color: rgba(249, 187, 0, 0.329);}
+    30%{background-color: rgba(249, 187, 0, 0.373);}
+    40%{background-color: rgba(249, 187, 0, 0.438);}
+    50%{background-color: rgba(249, 187, 0, 0.553);}
+    60%{background-color: rgba(249, 187, 0, 0.586);}
+    70%{background-color: rgba(249, 187, 0, 0.69);}
+    80%{background-color: rgba(249, 187, 0, 0.723);}
+    90%{background-color: rgba(249, 187, 0, 0.899);}
+    to {background-color: rgb(249, 187, 0);}
+}
+
+@keyframes buttonAnimationReverse {
+    from {background-color: rgb(249, 187, 0);}
+    10%{background-color: rgba(249, 187, 0, 0.899);}
+    20%{background-color: rgba(249, 187, 0, 0.723);}
+    30%{background-color: rgba(249, 187, 0, 0.69);}
+    40%{background-color: rgba(249, 187, 0, 0.586);}
+    50%{background-color: rgba(249, 187, 0, 0.553);}
+    60%{background-color: rgba(249, 187, 0, 0.438);}
+    70%{background-color: rgba(249, 187, 0, 0.373);}
+    80%{background-color: rgba(249, 187, 0, 0.329);}
+    90%{background-color: rgba(249, 187, 0, 0.208);}
+    to {background-color: rgba(249, 187, 0, 0);}
+}
+
+
+.squareDesign-div{
+    position: relative;
+    width: 70.25%;
+    height: 45px;
+
+    /* //////// */
+    background-color: rgb(229, 229, 229);
+    /* //////// */
+
+    margin-top: 325px;
+    border-radius: 5px;
+    margin-left: -1.29%;
+    padding: 7px;
+}
+
+.innersquareDesign-div{
+    margin: 0 auto;
+    position: relative;
+    width: 102.8%;
+    height: 50px;
+    background-color: rgb(249, 187, 0);
+    border-radius: 5px;
+    margin-left: -3%;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+ 
+}
+
+
+.innerCircle{
+   width: 21px;
+    height: 18px;
+    border-radius: 60px 10000px 0px 10000000px;
+    background-color: rgb(49, 47, 43);
+    position: relative;
+
+}
+
+
+/* About Us Section */
+.mainAboutUsDiv-div{
+    height: 20%;
+    margin-top: -70px;
+
+    display: flex;
+   
+}
+
+.myAboutUsImage-img{
+    width: 50%;
+    height: 100%;
+    margin: 140px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(95, 95, 95, 0.481);
+
+   
+    
+}
+
+.mainWhiteSquare-div{
+    display: flex;
+    width: 700px;
+    height: 470px;
+    margin-top: 240px;
+    margin-left: -320px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(106, 106, 106, 0.481);
+    justify-content: end;
+
+    background-color: rgb(255, 255, 255);
+}
+.rigthCorner-div{
+    background-color: rgb(249, 187, 0);
+    height: 100%;
+    width: 20px;
+
+    margin-right: -6px;
+    
+    
+}
+
+.myLongLine-div{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(249, 187, 0);
+    
+}
+
+.myMainWhiteDiv0-div{
+    display: flex;
+    justify-content: start;
+
+}
+
+.myMainWhiteDiv1-div{
+
+    display: flex;
+    justify-content: end;
+}
+.myMainWhiteSquarePara0-para{
+    color: rgb(249, 187, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: large;
+    justify-self: start;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+
+.myWhiteSquarePara0-para{
+    color: rgb(115, 115, 115);
+    font-size: 18px;
+    display: flex;
+    justify-self: start;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: start;
+    font-weight: 300;
+ 
+}
+
+.myMainWhiteSquarePara1-para{
+    color: rgb(249, 187, 0);
+   
+
+    font-size: 20px;
+    justify-self: end;
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-right: 0px;
+}
+
+.myWhiteSquarePara1-para{
+    color: rgb(115, 115, 115);
+    font-size: 18px;
+    display: flex;
+    justify-self: end;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: end;
+    font-weight: 300;
+
+}
+
+
+
+.upRightYellowSquare-div{
+    width: 77%;
+    height: 60px;
+    
+  
+    border-radius: 5px;
+    display: flex;
+    justify-self: end;
+    box-shadow: 2px 2px rgba(54, 54, 54, 0.307);
+
+    position: relative;
+
+    background-color: rgb(249, 187, 0);
+
+}
+
+
+.myInnerYelloSquarePara0-para{
+    color: rgb(109, 109, 109);
+
+    padding-top: 20px;
+    padding-left: 2%;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.myInnerYelloSquarePara1-para{
+    color: rgb(109, 109, 109);
+
+    padding: 15px;
+    padding-right: 32%;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    text-align: end;
+    justify-self: end;
+
+}
+
+.mainOurWorkDiv-div{
+    width: 100%;
+    height: 700px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    
+    position:static;
+    display: flex;
+   
+
+}
+
+.mainInnerWorkDiv0-div{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: flex-start;
+    
+
+}
+
+.mainInnerWorkDiv1-div{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: flex-start;
+    
+
+}
+
+.miniOption0-div{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(212, 212, 212);
+    margin: 0 auto;
+  
+    border-radius: 100px;
+    
+    animation-name: buttonAnimation;
+    animation-duration: 0.2s;
+
+}
+.miniOption1-div{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(249, 187, 0);
+    margin: 0 auto;
+
+    border-radius: 100px;
+ 
+    animation-name: buttonAnimationReverse;
+
+    animation-duration: 0.000001s;
+}
+
+.mainMiniDiv-div{
+    display: flex;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    position: relative;
+
+
+}
+
+/* Our Work Section */
+
+.myOurWorkInfo0-img{
+    object-fit: cover;
+    width: 0%;
+    height: 0%;
+ 
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.397);
+  
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.myOurWorkInfo1-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position:sticky;
+
+ 
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.397);
+
+    border-radius: 5px;
+    
+    animation-name: imageAnimation;
+    animation-duration: 0.2s;
+    
+ 
+
+  
+}
+
+
+@keyframes imageAnimation {
+   from{opacity: 0%;}
+
+    to {opacity: 100%;}
+}
+
+
+
+.myMainOurWorkPara0-para{   
+    margin-top: 200px;
+
+    margin-left: 25%;
+
+    width: 300px;
+    color: rgb(60, 60, 60);
+    height: fit-content;
+    text-align: start;
+    position: absolute;
+
+ 
+
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgba(0, 0, 0, 0.177);
+    padding: 10px;
+
+
+}
+
+.myMainOurWorkPara1-para{   
+    margin-top: 200px;
+
+    margin-left: 50%;
+
+    width: 360px;
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    text-align: end;
+    position: absolute;
+
+ 
+
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 10px;
+
+
+}
+
+
+.myMainOurWorkDesPara0-para{   
+   
+    margin-top: 250px;
+    margin-left: 25%;
+    
+
+    width: 30%;
+    color: rgb(60, 60, 60);
+
+    height: fit-content;
+    text-align: start;
+    position: absolute;
+
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgba(0, 0, 0, 0.177);
+    padding: 10px;
+
+
+}
+
+.myMainOurWorkDesPara1-para{   
+   
+    margin-top: 250px;
+    margin-left: 50%;
+    
+  
+    color: rgb(255, 255, 255);
+
+    width: 360px;
+    height: fit-content;
+    text-align: end;
+    position: absolute;
+
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 10px;
+
+}
+
+.myOurWorkButton0-btn{
+    text-align: end;
+    position: absolute;
+
+    margin-top: 400px;
+    margin-left: 25%;
+
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(60, 60, 60);
+
+    border-radius: 5px;
+    border: 1px solid rgb(249, 187, 0);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    animation-name: buttonAnimationReverse;
+    animation-duration: 0.2s;
+}
+
+.myOurWorkButton1-btn{
+    text-align: end;
+    position: absolute;
+
+    margin-top: 400px;
+    margin-left: 61%;
+
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(60, 60, 60);
+
+    border-radius: 5px;
+    border: 1px solid rgb(249, 187, 0);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+
+    animation-name: buttonAnimationReverse;
+    animation-duration: 0.2s;
+}
+
+.myOurWorkButton0-btn:hover{
+
+
+    background-color: rgb(249, 187, 0);
+    color: rgb(255, 255, 255);
+
+
+    animation-name: buttonAnimation;
+    animation-duration: 0.2s;
+}
+
+.myOurWorkButton1-btn:hover{
+
+
+    background-color: rgb(249, 187, 0);
+    color: rgb(255, 255, 255);
+
+
+    animation-name: buttonAnimation;
+    animation-duration: 0.2s;
+}
+
+
+.myArrowsLeft-div{
+    width: 50px;
+    height: 50px;
+    margin-top: 300px;
+    border-radius: 5px;
+
+ 
+    border: 10px solid rgb(249, 187, 0);
+    border-right: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+
+
+    position: absolute;
+    justify-self: start;
+
+    margin-left: 7%;
+  
+
+}
+
+.myArrowsRight-div{
+    width: 50px;
+    height: 50px;
+    margin-top: 300px;
+    border-radius: 5px;
+
+    border: 10px solid rgb(249, 187, 0);
+    border-right: 0;
+    border-top: 0;
+    transform: rotate(225deg);
+
+    position: absolute;
+    justify-self: end;
+    margin-left: 90%;
+   
+
+}
+
+/* Departments Section */
+
+
+.mainDepts-div{
+    height: 320px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+    position: relative;
+ 
+}
+
+.department-div{
+    width: 32%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(120, 120, 120, 0.373);
+    text-align: right;
+
+}
+
+.mydeptImage-img{
+    width: 100%;
+    height: 200px;
+
+    object-fit:cover;
+
+    
+ 
+}
+
+
+.line-div{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(248, 194, 32);
+    margin-top: 6px;
+}
+
+.myDeptPara0-para{
+    margin: -1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 50px;
+    font-size:13px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px rgba(78, 78, 78, 0.337);
+    width: fit-content;
+    color: rgb(71, 71, 71);
+}
+.myDeptPara1-para{
+    margin: -1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+    font-size:16px;
+    font-weight: 600;
+    font-family:"adobe" "arabic";
+    text-shadow: 1px 1px rgba(78, 78, 78, 0.337);
+    width: fit-content;
+}
+
+.myDesPara0-para{
+    margin: 10px;
+    width: 95%;
+    font-size: 12px;
+    margin-top: 1px;
+    font-weight: 400;
+    margin-bottom: -2px;
+    width: fit-content;
+    text-align: start;
+    color: rgb(124, 124, 124);
+    
+}
+
+.myDesPara1-para{
+    margin: 10px;
+    width: 95%;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 1px;
+    margin-bottom: -2px;
+    width: fit-content;
+    text-align: end;
+    color: rgb(124, 124, 124);
+}
+.allTheDivs0{
+    display:flex;
+    justify-content: start;
+}
+
+.allTheDivs1{
+    display:flex;
+    justify-content: end;
+}
+
+.circlemm{
+    width: 48px;
+    height: 60px;
+    
+    -webkit-mask-image:
+        radial-gradient(circle at top right, transparent 0, transparent  20px, black 21px);
+    -webkit-mask-position: top left;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 50% 50%;
+    mask-image:
+        radial-gradient(circle at top right, transparent 0, transparent 20px, black 21px);
+    mask-position: top left;
+    mask-repeat: no-repeat;
+    mask-size: 40% 35%;
+
+    /* //////// */
+    background-color: rgb(229, 229, 229);
+    /* //////// */
+    
+    margin-left: 68.7%;
+    margin-top: -30px;
+  
+}
+
+/* Footer Section */
+
+.mainFooterDiv-div{
+    width: 100%;
+    height: 530px;
+
+    margin-top: 900px;
+
+    background-color: rgb(73, 73, 73);
+    
+}
+
+.upRightYellowSquareFooter-div{
+    width: 77%;
+    height: 60px;
+    margin-top: -30px;
+    
+    border-radius: 5px;
+    display: flex;
+    justify-self: end;
+    box-shadow: 2px 2px rgba(54, 54, 54, 0.307);
+
+    position: relative;
+
+    background-color: rgb(249, 187, 0);
+
+}
+
+
+.myInnerYelloSquareFooterPara0-para{
+    color: rgb(109, 109, 109);
+
+    padding-top: 20px;
+    padding-left: 2%;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.myInnerYelloSquareFooterPara1-para{
+    color: rgb(109, 109, 109);
+
+    padding-top: 20px;
+    padding-left: 2%;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.myFooterLine-div{
+    width: 80%;
+    height: 2px;
+
+    background-color: rgb(249, 187, 0);
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.myFooterContent-div{
+    display: flex;
+
+    width: 75%;
+
+    margin: 0 auto;
+
+    justify-content: space-between;
+}
+
+.myFooterImage-img{
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+
+}
+
+.myFooterPara-para{
+   color: aliceblue;
+}
+
+.mySiderLine-div{
+    height: 300px;
+    width: 2px;
+    margin-top: 15px;
+    margin-bottom: -35px;
+    background-color: rgb(249, 187, 0);
+}
+
+.myFooterinBetweenLine-div{
+    width: 100%;
+    height: 2px;
+
+    background-color: rgb(249, 187, 0);
+
+    margin: 0 auto;
+}
+
+.myFooterInnerPara-para{
+    margin: 0 auto;
+    color: white;
+    
+}
+
+.myFooterInnerNumber-para{
+    margin: 0 auto;
+    color: white;
+
+    margin: 10px;
+    margin-bottom: -10px;
+}
+
+.myFooterLogos-div{
+    width: 100%;
+    height: 40px;
+
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.myFooterLogoOne-div{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 100px;
+
+    margin-top: 15px;
+}
+
+.myFooterLogoImage-img{
+    width: 50px;
+}
+
+.myFooterMapDiv-div{
+    width: 350px;
+    height: 250px;
+
+    margin-top: 40px;
+    background-color: rgb(169, 169, 169);
+}
+
+.myFooterMapImage-img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transform: scale(1.2);
+}
+.myLocation-para{
+    text-shadow: 2px 2px 10px rgba(66, 66, 66, 0.999);
+    width: 220px;
+    font-weight:bold;
+    cursor:default;
+    color:aliceblue;
+}
+.myUnderFooterDiv-div{
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(249, 187, 0);
+}
