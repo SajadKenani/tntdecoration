@@ -1,5 +1,12 @@
-import { useState, createContext, useContext  } from "react";
-import "../HomePage/HomePage.css";
+import { useState, useContext  } from "react";
+
+import "../HomePage/HomePageSection.css";
+import "../HomePage/AboutUsSection.css";
+import "../HomePage/OurWorkSection.css";
+import "../HomePage/DepartmentSection.css";
+import "../HomePage/FooterSection.css";
+
+
 import HomePageImage from "../Images/Untitled-design-3-2048x1024.jpg";
 import { Language } from "../UpperBar/UpperBar";
 import { MyData } from "../UpperBar/MyData";
@@ -21,9 +28,11 @@ import PackegingImage from "../Images/belmont-roofing-wall-cladding-warehouse-re
 import SuperVisingImage from "../Images/project-management-300x205 1.png"
 import AddsImage from "../Images/what_is_the_difference_between_advertisement_and_propaganda_7428_orig 1.png"
 
+
+
+
 import myLog1 from "../UpperBar/MyLogo/image3.png"
 import CompanyOnMap from "../Images/CompanyOnMap.png"
-import React from "react";
 import { Wrapper } from "@googlemaps/react-wrapper";
 
 export const HomePage = () => {
@@ -64,8 +73,8 @@ export const HomePage = () => {
        <img className="myImage-img" src={HomePageImage} />
 
         {/* The Buttons on the left side */}
-       <div className="feceBook-div"><div><p className="myNumber-para" style={{marginTop:10+"px"}}>@CompanyAcc</p></div><img className="phoneCall-img" src={FacebookIcon}/></div>
-       <div className="insta-div"><div><p className="myNumber-para" style={{marginTop:10+"px"}}>@CompanyAcc</p></div><img className="phoneCall-img" src={InstaIcon}/></div>
+       <div className="feceBook-div"><div><p className="myText-para" style={{marginTop:10+"px"}}>@CompanyAcc</p></div><img className="facebookImage-img" src={FacebookIcon}/></div>
+       <div className="insta-div"><div><p className="myText-para" style={{marginTop:10+"px"}}>@CompanyAcc</p></div><img className="facebookImage-img" src={InstaIcon}/></div>
        <div className="phoneCall-div"><div><p className="myNumber-para">0772 345 6789</p><p className="myNumber-para">0772 345 6789</p></div><img className="phoneCall-img" src={PhoneCall}/></div>
 
         {/* Contents inside the main image */}
@@ -124,14 +133,20 @@ export const HomePage = () => {
         <div className="mainOurWorkDiv-div">
 
             <div className={`mainInnerWorkDiv${myUsedContext.id}-div`}><div className={`myVeryInnerDiv${myUsedContext.myId}-div`}></div>
-            {myArr.map((a) => <img src={MyData[myUsedContext.myId][`workPic${counter.name}${a}`]} className={`myOurWorkInfo${a}-img`} />)}
-
+           
+            <div style={{width: 100+"%", display:"flex", justifyContent:"end", backgroundColor:"rgb(73, 73, 73)"}}>
+            
+            {myArr.map((a) =><img src={MyData[myUsedContext.myId][`workPic${counter.name}${a}`]} className={`myOurWorkImage${a}-img`} />)}
+            
+            </div>
             {/* Left and Right Arrows*/}
             <div className="myArrowsLeft-div" onClick={LeftArrowHandleClick}></div>
             <div className="myArrowsRight-div" onClick={RightArrowHandleClick}></div>
 
             {/* Main Image Paragraph */}
             <p className={`myMainOurWorkPara${myUsedContext.id}-para`}>{MyData[myUsedContext.myId][`WorkName${counter.name}`]}</p>
+
+           
 
             {/* Description Image Paragraph */}
             <p className={`myMainOurWorkDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.myId][`WorkDes${counter.name}`]}</p>  
@@ -159,8 +174,8 @@ export const HomePage = () => {
         {/* End Section//////// */}
       
         {/* Departments Section*/}
-       <div className="mainDepts-div">
 
+        <div className="mainDepts-div">
             <div className="department-div">
                 <img className="mydeptImage-img" src={GlassesImage}></img>
 
@@ -206,9 +221,9 @@ export const HomePage = () => {
 
             </div>
   
-       </div>
+      
 
-       <div className="mainDepts-div">
+   
 
             <div className="department-div">
 
@@ -256,10 +271,10 @@ export const HomePage = () => {
                 <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptSixDes}</p>
                 </div>
             
-        </div>          
+            
     </div>   
 
-    <div className="mainDepts-div">
+ 
 
             <div className="department-div">
 
@@ -321,14 +336,14 @@ export const HomePage = () => {
 
       <div className="myFooterContent-div">
 
-        <div style={{display:"grid", width:30+"%"}}>
+        <div className="myFooterTNTImage-div" >
              <img className="myFooterImage-img" src={myLog1} />
              <p className="myFooterPara-para">{MyData[myUsedContext.id].underLogoinFooterPara}</p>
         </div>
 
         <div className="mySiderLine-div"></div>
 
-        <div style={{ width:20+"%", marginTop:30+"px"}}>
+        <div className="myFooterInnerPara-Div" >
              <p className="myFooterInnerPara-para">{MyData[myUsedContext.id].contactSectionPara}</p>
              <div className="myFooterinBetweenLine-div"></div>
 
@@ -379,4 +394,3 @@ export const HomePage = () => {
 </div>
 )
 }
-

@@ -43,9 +43,9 @@ function App() {
       <MyContext.Provider value={contextValue}>
       <UpperBar />
       <div className='myLanButton' > <p className={`Para${contextValue.id}-para`} onClick={myFunction}>{MyData[contextValue.id].language}</p> </div>
-      <Wrapper apiKey={"YOUR_API_KEY"}>
+
       <HomePage />
-      </Wrapper>
+
       </MyContext.Provider>
     </div>
   );

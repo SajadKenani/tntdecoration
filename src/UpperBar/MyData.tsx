@@ -123,12 +123,12 @@ export const MyData: any = [
 
         "WorkNum3" : 3,
         "WorkName3":"Work 4",
-        "WorkDes3":"Second, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
+        "WorkDes3":"Forth, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
         "workPic31": mySecondPicture,
 
         "WorkNum4" : 4,
         "WorkName4":"Work 5",
-        "WorkDes4":"Third, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
+        "WorkDes4":"Fifth, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
         "workPic41": myThirdPicture,
 
     },

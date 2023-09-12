@@ -1,0 +1,256 @@
+/* Our Work Section */
+
+.myOurWorkInfo0-img{
+
+  width: -100%;
+  height: 0%;
+
+
+
+}
+
+.myOurWorkImage1-img{
+  object-fit:cover;
+  width: 60%;
+  height: 700px;
+  position:absolute;
+  justify-self: end;
+  
+  animation-name: imageAnimation;
+  animation-duration: 0.2s;
+
+  border: solid rgb(249, 187, 0);
+  border-width: 0px 0px 0px 6px;
+
+}
+
+
+.besideImageMainDiv-div{
+  display: flex;
+  background-color: rgb(73, 73, 73);
+  justify-content: end;
+
+}
+
+.besideImageSideDiv-div{
+ 
+  justify-self: start;
+
+}
+
+
+@keyframes imageAnimation {
+ from{opacity: 0%;}
+
+  to {opacity: 100%;}
+}
+
+.myMiniLine-div{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.myMainOurWorkPara0-para{   
+  margin-top: 201px;
+  margin-left: 10%;
+
+  width: 26%;
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  text-align: start;
+  position: absolute;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 10px;
+
+  border: solid rgb(249, 187, 0);
+  border-width: 0px 0px 4px 0px;
+
+  box-shadow: 0px 2px rgba(50, 50, 50, 0.395)
+}
+
+.myMainOurWorkPara1-para{   
+  margin-top: 201px;
+  margin-left: 10%;
+
+  width: 26%;
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  text-align: end;
+  position: absolute;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 10px;
+
+  border: solid rgb(249, 187, 0);
+  border-width: 0px 0px 4px 0px;
+
+  box-shadow: 0px 2px rgba(50, 50, 50, 0.395)
+}
+
+
+.myMainOurWorkDesPara0-para{   
+  margin-top: 250px;
+  margin-left: 10%;
+  
+  width: 27%;
+  color: rgb(205, 205, 205);
+
+  height: 110px;
+  text-align: start;
+  position: absolute;
+
+
+  font-size:13px;
+  font-weight: 500;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 10px;
+
+  border: solid rgb(249, 187, 0);
+  border-width: 0px 0px 0px 0px;
+}
+
+.myMainOurWorkDesPara1-para{   
+  margin-top: 250px;
+  margin-left: 9%;
+  
+  width: 27%;
+  color: rgb(205, 205, 205);
+
+  height: 110px;
+  text-align: end;
+  position: absolute;
+
+
+  font-size:14px;
+  font-weight: 500;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding: 10px;
+
+  border: solid rgb(249, 187, 0);
+  border-width: 0px 0px 0px 0px;
+
+}
+
+.myOurWorkButton0-btn{
+  text-align: end;
+  position: absolute;
+
+  margin-top: 400px;
+  margin-left: 10.5%;
+
+  background-color: rgba(240, 248, 255, 0);
+  color: rgb(209, 209, 209);
+
+  border-radius: 5px;
+  border: 2px solid rgb(249, 187, 0);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+  animation-name: buttonAnimationReverse;
+  animation-duration: 0.2s;
+}
+
+.myOurWorkButton1-btn{
+  text-align: end;
+  position: absolute;
+
+  margin-top: 400px;
+  margin-left: 23.5%;
+
+  background-color: rgba(240, 248, 255, 0);
+  color: rgb(209, 209, 209);
+
+  border-radius: 5px;
+  border: 2px solid rgb(249, 187, 0);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 2px 2px rgba(100, 100, 100, 0.442);
+
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgba(74, 74, 74, 0.13);
+
+  animation-name: buttonAnimationReverse;
+  animation-duration: 0.2s;
+}
+
+.myOurWorkButton0-btn:hover{
+
+
+  background-color: rgb(249, 187, 0);
+  color: rgb(255, 255, 255);
+
+
+  animation-name: buttonAnimation;
+  animation-duration: 0.2s;
+}
+
+.myOurWorkButton1-btn:hover{
+
+
+  background-color: rgb(249, 187, 0);
+  color: rgb(255, 255, 255);
+
+
+  animation-name: buttonAnimation;
+  animation-duration: 0.2s;
+}
+
+
+.myArrowsLeft-div{
+  width: 50px;
+  height: 50px;
+  margin-top: 300px;
+  border-radius: 5px;
+
+
+  border: 10px solid rgb(249, 187, 0);
+  border-right: 0;
+  border-top: 0;
+  transform: rotate(45deg);
+
+
+  position: absolute;
+  justify-self: start;
+
+  margin-left: 5%;
+
+
+}
+
+.myArrowsRight-div{
+  width: 50px;
+  height: 50px;
+  margin-top: 300px;
+  border-radius: 5px;
+
+  border: 10px solid rgb(249, 187, 0);
+  border-right: 0;
+  border-top: 0;
+  transform: rotate(225deg);
+
+  position: absolute;
+  justify-self: end;
+  margin-left: 91%;
+ 
+
+}

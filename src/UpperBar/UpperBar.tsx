@@ -5,6 +5,13 @@ import myLogo from "../UpperBar/MyLogo/image2.png"
 import React from "react";
 import { MyContext } from "../App";
 
+import HomePageMiniIcon from "../UpperBar/SmallMainIcons/HomePageMiniIcon.png"
+import AboutUsMiniIcon from "../UpperBar/SmallMainIcons/AboutUsMiniIcon.png"
+import OurWorkMiniIcon from "../UpperBar/SmallMainIcons/OurWorkMiniIcon.png"
+import DepatmentsMiniIcon from "../UpperBar/SmallMainIcons/DepartmentMiniIcon.png"
+import ContactUsMiniIcon from "../UpperBar/SmallMainIcons/ContactUsMiniIcon.png"
+
+
 
 
 export const UpperBar = () => {
@@ -26,12 +33,39 @@ export const UpperBar = () => {
             </div>
 
             <div className="myOptions-div">
-                <p className="myOptions-para">{MyData[contextValue.id].homePage}<div className="myUpperLine"></div></p>
-                
+                <p className="myOptions-para">{MyData[contextValue.id].homePage}</p>    
                 <p className="myOptions-para">{MyData[contextValue.id].aboutUs}</p>
                 <p className="myOptions-para">{MyData[contextValue.id].ourWork}</p>
                 <p className="myOptions-para" onMouseEnter={() => useshowdep(!showdep) } >&#11167; {MyData[contextValue.id][`departments`]}</p>
                 <p className="myOptions-para">{MyData[contextValue.id].contactUs}</p>
+            </div>
+
+            <div className="myHiddenOptions-div">
+                <div style={{display:"grid"}}>
+                    <img className="myHiddenOptions-img" src={HomePageMiniIcon}/>  
+                    <p>Home</p>   
+                </div>
+
+                <div>
+                    <img className="myHiddenOptions-img" src={AboutUsMiniIcon}/>  
+                    <p>About Us</p>      
+                </div>
+
+                <div>
+                    <img className="myHiddenOptions-img" src={OurWorkMiniIcon}/>      
+                    <p>Our Work</p>  
+                </div>
+
+                <div>
+                    <img className="myHiddenOptions-img" src={DepatmentsMiniIcon}/>  
+                    <p>Departments</p>      
+                </div>
+
+                <div>
+                    <img className="myHiddenOptions-img" src={ContactUsMiniIcon}/>    
+                    <p>Contact Us</p>   
+                </div>
+                           
             </div>
 
             <div className="myLogo-div">
