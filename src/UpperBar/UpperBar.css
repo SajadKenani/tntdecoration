@@ -202,4 +202,25 @@
     .myHiddenOptions-div{
         visibility: visible;
     }
-  }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .MainDiv-div{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .myHiddenOptions-div{
+        height: 50px;
+        width: 100%;
+        padding: 5px;
+    }
+    .myHiddenOptions-img{
+        width: 25px;
+    
+    }
+    .myHiddenOptions-para{
+        font-size: 10px;
+    }
+}

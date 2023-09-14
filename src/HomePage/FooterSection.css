@@ -178,46 +178,51 @@
   margin-top:30px;
 
 }
+.mainHiddenFooterDiv-div{
+  background-color: rgb(73, 73, 73); 
+   width: 100%;
+   height: 700px;
+
+
+  visibility: hidden;
+}
+
+.myHiddenFooterTNTImage-div{
+  width: 70%;
+  margin: 0 auto;
+
+  padding-top: 20px;
+
+}
 
 @media only screen and (max-width: 1050px) {
   .mainFooterDiv-div{
-    width: 100%;
-    height: 1700px;
-
-  
-    margin-top: 900px;
-  
-    background-color: rgb(73, 73, 73);
-    
+   visibility: hidden;
   }
 
-  .myFooterContent-div{
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: -1000px;
-    
+  .mainHiddenFooterDiv-div{
+    visibility: visible;
   }
-
-  .myFooterImage-img{
-    width: 75%;
-    height: 350px;
-    margin: 0 auto;
-    margin-top: 50px;
-    
-  }
-  .mySiderLine-div{
-    visibility: hidden;
-  }
-  .myFooterInnerPara-Div{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .myFooterTNTImage-div{
-    width: 128%;
-    margin: 0 auto;
-  
+  .myHiddenFooterTNTImage-div{
+    width: 50%;
  
+  
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  .mainFooterDiv-div{
+   visibility: hidden;
+  }
+
+  .mainHiddenFooterDiv-div{
+    visibility: visible;
+  }
+  .myHiddenFooterTNTImage-div{
+    width: 70%;
+ 
+  
   }
 
 }

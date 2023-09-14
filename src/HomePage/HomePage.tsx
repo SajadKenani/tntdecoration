@@ -109,7 +109,13 @@ export const HomePage = () => {
         {/* About Us Section*/}
        <div className="mainAboutUsDiv-div">
         {/* Main Image */}
+        <div className={`mainHiddenWhiteSquare${myUsedContext.id}-div`}>
+        <p className={`myMainHiddenAboutUsPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].aboutUsTitle}</p>
+            <p className={`mySecondHiddenAboutUsPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].aboutUsPara}</p>
+        </div>
         <img className="myAboutUsImage-img" src={AboutUsImage}/>
+        
+       
         {/* White Space */}
         <div className="mainWhiteSquare-div">
             <div style={{width:100+"%"}}>
@@ -125,6 +131,8 @@ export const HomePage = () => {
             <div style={{height:100+"%", width:12 +"px", backgroundColor:"rgb(249, 187, 0)", borderRadius:5+"px"}}></div>
    
         </div>
+
+        
        </div>
         
         {/* End Section//////// */}
@@ -137,6 +145,7 @@ export const HomePage = () => {
             <div style={{width: 100+"%", display:"flex", justifyContent:"end", backgroundColor:"rgb(73, 73, 73)"}}>
             
             {myArr.map((a) =><img src={MyData[myUsedContext.myId][`workPic${counter.name}${a}`]} className={`myOurWorkImage${a}-img`} />)}
+            <div className={`myHiddenContent-div`}>igy</div>
             
             </div>
             {/* Left and Right Arrows*/}
@@ -391,6 +400,38 @@ export const HomePage = () => {
     <div className="myUnderFooterDiv-div"></div>
   {/* End Section//////// */}
 
+    <div className="mainHiddenFooterDiv-div">
+        <div style={{display:"flex", justifyContent:"end", marginTop:-730+"px"}}>
+           <div className={`upRightYellowSquareFooter-div`}></div>
+        </div>
+
+        <div className="myHiddenFooterTNTImage-div" >
+            <img className="myFooterImage-img" src={myLog1} />
+            <p className="myFooterPara-para" style={{width:"120%", marginLeft:"-10%"}}>{MyData[myUsedContext.id].underLogoinFooterPara}</p>
+        </div>
+
+        
+
+        <div className="myFooterInnerPara-Div" style={{width:"60%", margin:"0 auto"}} >
+             <p className="myFooterInnerPara-para">{MyData[myUsedContext.id].contactSectionPara}</p>
+             <div className="myFooterinBetweenLine-div"></div>
+
+             <p className="myFooterInnerNumber-para">0772 345 6789</p>
+             <p className="myFooterInnerNumber-para">0772 345 6789</p>
+
+             <p className="myFooterInnerPara-para" style={{marginTop:40+"px"}}>{MyData[myUsedContext.id].contactUsViaEmail}</p>
+             <div className="myFooterinBetweenLine-div"></div>
+
+             <p className="myFooterInnerPara-para" style={{marginTop:5+"px"}}>company@email.com</p>
+
+             <div className="myFooterLogos-div">
+                <div className="myFooterLogoOne-div"><img className="myFooterLogoImage-img" src={FacebookIcon}/></div>
+                <div className="myFooterLogoOne-div"><img className="myFooterLogoImage-img" src={InstaIcon}/></div>
+                <div className="myFooterLogoOne-div"><img className="myFooterLogoImage-img" src={PhoneCall}/></div>
+             </div>
+        </div>
+    
+      </div>
 </div>
 )
 }

@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(218, 218, 218);
+  overflow:hidden;
 }
 
 .App-logo {
@@ -63,4 +64,12 @@
   margin-top:15px;
   position:relative;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .myLanButton{
+     
+      padding-right: -0%;
+  }
 }

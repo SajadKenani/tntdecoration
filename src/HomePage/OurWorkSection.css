@@ -39,6 +39,8 @@
 }
 
 
+
+
 @keyframes imageAnimation {
  from{opacity: 0%;}
 
@@ -253,4 +255,103 @@
   margin-left: 91%;
  
 
+}
+
+.miniOption0-div{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(212, 212, 212);
+  margin: 0 auto;
+
+  border-radius: 100px;
+  
+  animation-name: buttonAnimation;
+  animation-duration: 0.2s;
+
+}
+.miniOption1-div{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(249, 187, 0);
+  margin: 0 auto;
+
+  border-radius: 100px;
+
+  animation-name: buttonAnimationReverse;
+
+  animation-duration: 0.000001s;
+}
+
+.mainMiniDiv-div{
+  display: flex;
+  width: 60px;
+  
+  margin-left: 67%;
+  margin-top: -100px;
+  margin-bottom: 200px;
+  position: relative;
+
+  
+
+
+}
+
+.myHiddenContent-div{
+  visibility: hidden;
+}
+
+@media(max-width: 1050px){
+
+  .myMainOurWorkPara0-para{   
+    margin-top: 101px; 
+  }
+  .myMainOurWorkDesPara0-para{   
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 30%;
+
+  }
+  
+ 
+}
+
+@media(max-width: 750px){
+  .myMainOurWorkDesPara0-para{   
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 60%;
+
+  }
+  .myOurWorkImage1-img{
+    width: 100%;
+    border: none;
+  }
+  .myHiddenContent-div{
+    height: 100%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.588);
+    position: relative;
+    visibility: visible;
+    margin-right: 20%;
+
+  }
+  .myArrowsLeft-div{
+   margin-left: 12px;
+  }
+  .myArrowsRight-div{
+    margin-left:84%;
+   }
+   .mainMiniDiv-div{
+    display: flex;
+    width: 60px;
+    
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    position: relative;
+  
+    
+  
+  
+  }
 }

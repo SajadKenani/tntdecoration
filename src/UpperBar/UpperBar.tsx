@@ -26,8 +26,7 @@ export const UpperBar = () => {
         <div className="MainDiv-div">
             <div className="veryUpperBar-div">
             </div>
-
-            <div className="myMainLine-div"></div>
+            
             <div className="tnt-LeftWord">
                 <p className="tntPara">TNT DECORATION</p>
             </div>
@@ -43,27 +42,27 @@ export const UpperBar = () => {
             <div className="myHiddenOptions-div">
                 <div style={{display:"grid"}}>
                     <img className="myHiddenOptions-img" src={HomePageMiniIcon}/>  
-                    <p>Home</p>   
+                    <p className="myHiddenOptions-para">Home</p>   
                 </div>
 
                 <div>
                     <img className="myHiddenOptions-img" src={AboutUsMiniIcon}/>  
-                    <p>About Us</p>      
+                    <p className="myHiddenOptions-para">About Us</p>      
                 </div>
 
                 <div>
                     <img className="myHiddenOptions-img" src={OurWorkMiniIcon}/>      
-                    <p>Our Work</p>  
+                    <p className="myHiddenOptions-para">Our Work</p>  
                 </div>
 
                 <div>
                     <img className="myHiddenOptions-img" src={DepatmentsMiniIcon}/>  
-                    <p>Departments</p>      
+                    <p className="myHiddenOptions-para">Departments</p>      
                 </div>
 
                 <div>
                     <img className="myHiddenOptions-img" src={ContactUsMiniIcon}/>    
-                    <p>Contact Us</p>   
+                    <p className="myHiddenOptions-para">Contact Us</p>   
                 </div>
                            
             </div>
