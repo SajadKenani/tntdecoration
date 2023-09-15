@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tntdecoration/static/css/main.3d256b28.css",
-    "main.js": "/tntdecoration/static/js/main.4c61ca9d.js",
+    "main.js": "/tntdecoration/static/js/main.5e2ba350.js",
     "static/js/787.9363d432.chunk.js": "/tntdecoration/static/js/787.9363d432.chunk.js",
     "static/media/modern-living-room-interior-design-white-sofa-decor-black-wall-texture-background_221619-1974 1@4x.png": "/tntdecoration/static/media/modern-living-room-interior-design-white-sofa-decor-black-wall-texture-background_221619-1974 1@4x.385e94def78c426233f9.png",
     "static/media/False-Ceiling-Light-31.png": "/tntdecoration/static/media/False-Ceiling-Light-31.59c59185ad29312b954d.png",
@@ -23,11 +23,11 @@
     "static/media/MiniUnClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniUnClickedAboutUsMiniIcon.7cf9ba74269a706b2e89.png",
     "index.html": "/tntdecoration/index.html",
     "main.3d256b28.css.map": "/tntdecoration/static/css/main.3d256b28.css.map",
-    "main.4c61ca9d.js.map": "/tntdecoration/static/js/main.4c61ca9d.js.map",
+    "main.5e2ba350.js.map": "/tntdecoration/static/js/main.5e2ba350.js.map",
     "787.9363d432.chunk.js.map": "/tntdecoration/static/js/787.9363d432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d256b28.css",
-    "static/js/main.4c61ca9d.js"
+    "static/js/main.5e2ba350.js"
   ]
 }
