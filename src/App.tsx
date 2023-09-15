@@ -18,7 +18,7 @@ function App() {
     // 0 for English
     // 1 for Arabic
     id: Number(localStorage.getItem("myValue")) === undefined ? 1 : Number(localStorage.getItem("myValue")), 
-    myId: Number(localStorage.getItem("theValue")) === undefined ? 2 : Number(localStorage.getItem("theValue")),
+    myId: Number(localStorage.getItem("theValue")) === undefined ? 3 : Number(localStorage.getItem("theValue")),
     
   }
   const myFunction = () => {
