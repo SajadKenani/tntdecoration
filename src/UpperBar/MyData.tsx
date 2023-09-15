@@ -51,6 +51,12 @@ export const MyData: any = [
         contactSectionPara:"Contact Us By These Numbers:",
 
         contactUsViaEmail: "Or Via Our Email:",
+
+        Minihome:"Home",
+        MiniaboutUs:"About Us",
+        MiniourWork:"Our Work",
+        Minidepartments:"Departments",
+        MinicontactUs:"Contact Us",
     
     },
 
@@ -102,6 +108,14 @@ export const MyData: any = [
         contactSectionPara:":تواصل معنا على الارقام التالية",
 
         contactUsViaEmail:":او عبر البريد الالكتروني",
+
+        Minihome:"الرئيسية",
+        MiniaboutUs:"من نحن",
+        MiniourWork:"اعمالنا",
+        Minidepartments:"اقسامنا",
+        MinicontactUs:"تواصل معنا",
+
+
 
     },
 

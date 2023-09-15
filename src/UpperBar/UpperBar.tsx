@@ -5,11 +5,20 @@ import myLogo from "../UpperBar/MyLogo/image2.png"
 import React from "react";
 import { MyContext } from "../App";
 
-import HomePageMiniIcon from "../UpperBar/SmallMainIcons/HomePageMiniIcon.png"
-import AboutUsMiniIcon from "../UpperBar/SmallMainIcons/AboutUsMiniIcon.png"
-import OurWorkMiniIcon from "../UpperBar/SmallMainIcons/OurWorkMiniIcon.png"
-import DepatmentsMiniIcon from "../UpperBar/SmallMainIcons/DepartmentMiniIcon.png"
-import ContactUsMiniIcon from "../UpperBar/SmallMainIcons/ContactUsMiniIcon.png"
+
+import ClickedHomePageMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/miniClickedHomeIcon.png"
+import ClickedAboutUsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/MiniClickedAboutUsMiniIcon.png"
+import ClickedOurWorkMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/MiniClickedOurWorkMiniIcon.png"
+import ClickedDepartmentsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/ClickedDepartmentsMiniIcon.png"
+import ClickedContactUsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/miniClickedContactUsIcon.png"
+
+
+import UnClickedHomePageMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/miniUnClickedHomeIcon.png"
+import UnClickedAboutUsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/MiniUnClickedAboutUsMiniIcon.png"
+import UnClickedOurWorkMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/MiniUnClickedOurWorkMiniIcon.png"
+import UnClickedDepartmentsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/UnClickedDepartmentsMiniIcon.png"
+import UnClickedContactUsMiniIcon from "../UpperBar/SmallMainIcons/MiniHomeIcons/miniUnClickedContactUsIcon.png"
+
 
 
 
@@ -41,28 +50,28 @@ export const UpperBar = () => {
 
             <div className="myHiddenOptions-div">
                 <div style={{display:"grid"}}>
-                    <img className="myHiddenOptions-img" src={HomePageMiniIcon}/>  
-                    <p className="myHiddenOptions-para">Home</p>   
+                    <img className="myHiddenOptions-img" src={UnClickedHomePageMiniIcon}/>  
+                    <p className="myHiddenOptions-para">{MyData[contextValue.id].Minihome}</p>   
                 </div>
 
                 <div>
-                    <img className="myHiddenOptions-img" src={AboutUsMiniIcon}/>  
-                    <p className="myHiddenOptions-para">About Us</p>      
+                    <img className="myHiddenOptions-img" src={UnClickedAboutUsMiniIcon}/>  
+                    <p className="myHiddenOptions-para">{MyData[contextValue.id].MiniaboutUs}</p>      
                 </div>
 
                 <div>
-                    <img className="myHiddenOptions-img" src={OurWorkMiniIcon}/>      
-                    <p className="myHiddenOptions-para">Our Work</p>  
+                    <img className="myHiddenOptions-img" src={UnClickedOurWorkMiniIcon}/>      
+                    <p className="myHiddenOptions-para">{MyData[contextValue.id].MiniourWork}</p>  
                 </div>
 
                 <div>
-                    <img className="myHiddenOptions-img" src={DepatmentsMiniIcon}/>  
-                    <p className="myHiddenOptions-para">Departments</p>      
+                    <img className="myHiddenOptions-img" src={UnClickedDepartmentsMiniIcon}/>  
+                    <p className="myHiddenOptions-para">{MyData[contextValue.id].Minidepartments}</p>      
                 </div>
 
                 <div>
-                    <img className="myHiddenOptions-img" src={ContactUsMiniIcon}/>    
-                    <p className="myHiddenOptions-para">Contact Us</p>   
+                    <img className="myHiddenOptions-img" src={UnClickedContactUsMiniIcon}/>    
+                    <p className="myHiddenOptions-para">{MyData[contextValue.id].MinicontactUs}</p>   
                 </div>
                            
             </div>

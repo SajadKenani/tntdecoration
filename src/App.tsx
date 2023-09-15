@@ -13,8 +13,6 @@ type data = {
 
 export const MyContext = createContext(0);
 
-
-
 function App() {
   const contextValue: data|any = {
     // 0 for English

@@ -291,9 +291,6 @@
   margin-bottom: 200px;
   position: relative;
 
-  
-
-
 }
 
 .myHiddenContent-div{
@@ -308,6 +305,18 @@
   .myMainOurWorkDesPara0-para{   
     margin-top: 150px;
     margin-left: 10%;
+    width: 30%;
+
+  }
+
+  .myMainOurWorkPara1-para{   
+    margin-top: 101px; 
+    margin-left: 25%;
+    width: 10%;
+  }
+  .myMainOurWorkDesPara1-para{   
+    margin-top: 150px;
+    margin-left: 5%;
     width: 30%;
 
   }
@@ -350,8 +359,18 @@
     margin-bottom: 200px;
     position: relative;
   
-    
+  }
+
   
-  
+  .myMainOurWorkPara1-para{   
+    margin-top: 101px; 
+    margin-left: 55%;
+    width: fit-content;
+  }
+  .myMainOurWorkDesPara1-para{   
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 60%;
+
   }
 }
