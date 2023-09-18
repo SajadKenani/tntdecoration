@@ -161,7 +161,7 @@ export const MyData: any = [
         "WorkNum2" : 2,
         "WorkName2":"عمل 3",
         "WorkDes2":"نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال",
-        "workPic21": myThirdPicture,
+        "workPic21": myFirstPicture,
 
         "WorkNum3" : 3,
         "WorkName3" :"عمل 4",
@@ -171,7 +171,7 @@ export const MyData: any = [
         "WorkNum4" : 4,
         "WorkName4":"عمل 5",
         "WorkDes4":"نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال",
-        "workPic41": myThirdPicture,
+        "workPic41": myFirstPicture,
     }
     
 ]
