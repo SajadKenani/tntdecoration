@@ -133,7 +133,7 @@ export const MyData: any = [
         "WorkNum2" : 2,
         "WorkName2":"Work 3",
         "WorkDes2":"Third, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
-        "workPic21": myThirdPicture,
+        "workPic21": myFirstPicture,
 
         "WorkNum3" : 3,
         "WorkName3":"Work 4",
@@ -143,7 +143,7 @@ export const MyData: any = [
         "WorkNum4" : 4,
         "WorkName4":"Work 5",
         "WorkDes4":"Fifth, We provide the service of modernizing e-commerce, the role and the shops to the optimal form of urban development and the continuity of development in technology to achieve the highest levels and beauty",
-        "workPic41": myThirdPicture,
+        "workPic41": myFirstPicture,
 
     },
     {

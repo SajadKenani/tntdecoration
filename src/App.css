@@ -1,9 +1,11 @@
 .App {
   text-align: center;
-  background-color: rgb(218, 218, 218);
+
   overflow:hidden;
 }
-
+body{
+  background-color: rgb(229, 229, 229);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -41,35 +43,53 @@
 
 .myLanButton{
 
-  margin-top: 149px;
-  margin-bottom: -125px;
-  text-align: end;
+  margin-top: 85px;
+  padding-top: -50px;
+  z-index: 50;
+  margin-right: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 70px;
+  right: 0;
+  position: fixed;
   display: flex;
-  justify-content: end;
-  margin-right: 125px;
+  justify-content: flex-end;
   color: white;
+
+  background-color: rgba(120, 120, 120, 0.373);
+  height: 30px;
+
+
 
 }
 
 .Para0-para{
   width:fit-content;
-  margin-top:15px;
-  margin-right: 7px;
+  margin: 0 auto;
+  
+ 
   position:relative;
-  cursor: pointer;
+
+  display: fixed;
+
+  z-index: 20;
 }
 
 .Para1-para{
   width:fit-content;
-  margin-top:15px;
+  margin: 0 auto;
   position:relative;
-  cursor: pointer;
+ 
+  display: fixed;
+  padding-top: 3px;
+  z-index: 20;
 }
 
 @media only screen and (max-width: 750px) {
 
   .myLanButton{
      
-      margin-right: 22%;
+    margin-right: 25px;
   }
 }

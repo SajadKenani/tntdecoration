@@ -8,6 +8,9 @@
   display: grid;
   grid-template-columns: 
   repeat(auto-fit, minmax(330px, 2fr));
+
+  margin-bottom: 200px;
+  
   
 
 }
