@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/tntdecoration/static/css/main.aca5fce7.css",
-    "main.js": "/tntdecoration/static/js/main.fea8a6ed.js",
+    "main.css": "/tntdecoration/static/css/main.81ebac94.css",
+    "main.js": "/tntdecoration/static/js/main.57bd7c2d.js",
     "static/js/787.9363d432.chunk.js": "/tntdecoration/static/js/787.9363d432.chunk.js",
-    "static/media/modern-living-room-interior-design-white-sofa-decor-black-wall-texture-background_221619-1974 1@4x.png": "/tntdecoration/static/media/modern-living-room-interior-design-white-sofa-decor-black-wall-texture-background_221619-1974 1@4x.385e94def78c426233f9.png",
     "static/media/False-Ceiling-Light-31.png": "/tntdecoration/static/media/False-Ceiling-Light-31.59c59185ad29312b954d.png",
     "static/media/kam-idris-_HqHX3LBN18-unsplash.jpg": "/tntdecoration/static/media/kam-idris-_HqHX3LBN18-unsplash.c81a226dbc3d06b7e618.jpg",
     "static/media/32416139501.png": "/tntdecoration/static/media/32416139501.1673e808c082d81c017f.png",
@@ -24,12 +23,12 @@
     "static/media/MiniClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniClickedAboutUsMiniIcon.c10e954e2eb32dd521d0.png",
     "static/media/MiniUnClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniUnClickedAboutUsMiniIcon.7cf9ba74269a706b2e89.png",
     "index.html": "/tntdecoration/index.html",
-    "main.aca5fce7.css.map": "/tntdecoration/static/css/main.aca5fce7.css.map",
-    "main.fea8a6ed.js.map": "/tntdecoration/static/js/main.fea8a6ed.js.map",
+    "main.81ebac94.css.map": "/tntdecoration/static/css/main.81ebac94.css.map",
+    "main.57bd7c2d.js.map": "/tntdecoration/static/js/main.57bd7c2d.js.map",
     "787.9363d432.chunk.js.map": "/tntdecoration/static/js/787.9363d432.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aca5fce7.css",
-    "static/js/main.fea8a6ed.js"
+    "static/css/main.81ebac94.css",
+    "static/js/main.57bd7c2d.js"
   ]
 }
