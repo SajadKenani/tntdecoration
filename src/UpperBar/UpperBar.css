@@ -10,6 +10,7 @@
 
     padding: 85px;
     margin-top: -260px;
+
     
 }
 
@@ -29,6 +30,7 @@
     padding-right: 42px;
     
     cursor:default;
+    
     
 }
 
@@ -194,14 +196,14 @@
 }
 
 .myOptions-para{
-    height: 20px;
+    height: 70px;
     justify-self: center;
     padding-top: 40px;
     padding-bottom: 35px;
     margin-top: -40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding: 0 auto;
+    
     
    
 
@@ -391,5 +393,36 @@
     .myHiddenDepDiv-div1{
         margin-top: 230px;
     }
+
+    .facebookImage-img{
+   
+   
+        height: 35px;
+        width: 35px;
+        margin-bottom: 135px;
+    }
+    
+    
+    
+    .instagram-img{
+       
+        height: 35px;
+        width: 35px;
+      
+
+    }
+    
+    
+    
+    .phoneCall-img{
+       
+        height: 35px;
+        width: 35px;
+        margin-bottom: 180px;
+    
+ 
+    }
+
+
 }
 

@@ -34,7 +34,7 @@ export const UpperBar = () => {
 
     const [hiddenshowdep, usehiddenshowdep] = useState(false)
 
-    const [home, usehome] = useState(false)
+    const [home, usehome] = useState(true)
     const [aboutus, useaboutus] = useState(false)
     const [ourwork, useourwork] = useState(false)
     const [contactus, usecontactus] = useState(false)

@@ -139,7 +139,7 @@ export const HomePage = () => {
             <div style={{width: 100+"%", display:"flex", justifyContent:"end", backgroundColor:"rgb(73, 73, 73)"}}>
             
             {myArr.map((a) =><img src={MyData[myUsedContext.myId][`workPic${counter.name}${a}`]} className={`myOurWorkImage${a}-img`} />)}
-            <div className={`myHiddenContent-div`}>igy</div>
+            <div className={`myHiddenContent-div`}></div>
             
             </div>
             {/* Left and Right Arrows*/}

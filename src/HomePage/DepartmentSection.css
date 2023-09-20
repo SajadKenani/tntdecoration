@@ -9,7 +9,7 @@
   grid-template-columns: 
   repeat(auto-fit, minmax(330px, 2fr));
 
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   
   
 
@@ -129,5 +129,16 @@
   
   margin-left: 68.7%;
   margin-top: -30px;
+
+}
+
+@media only screen and (max-width: 750px) {
+ 
+.mainDepts-div{
+  width: 100%;
+  
+  
+
+}
 
 }

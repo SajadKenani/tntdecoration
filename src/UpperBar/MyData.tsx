@@ -46,17 +46,16 @@ export const MyData: any = [
     
         departmentsTitle: "Our Work",
 
-        underLogoinFooterPara:"Produced By TNT Decoration Company",
-
-        contactSectionPara:"Contact Us By These Numbers:",
-
-        contactUsViaEmail: "Or Via Our Email:",
-
         Minihome:"Home",
         MiniaboutUs:"About Us",
         MiniourWork:"Our Work",
         Minidepartments:"Departments",
         MinicontactUs:"Contact Us",
+
+        FooterPages: "Pages",
+        FooterDepartments: "Departments",
+
+        Credits:"All Rights Reserved.",
     
     },
 
@@ -103,17 +102,17 @@ export const MyData: any = [
    
         departmentsTitle: "اعمالنا",
 
-        underLogoinFooterPara:"انتاج شركة تي ان تي للديور",
-
-        contactSectionPara:":تواصل معنا على الارقام التالية",
-
-        contactUsViaEmail:":او عبر البريد الالكتروني",
 
         Minihome:"الرئيسية",
         MiniaboutUs:"من نحن",
         MiniourWork:"اعمالنا",
         Minidepartments:"اقسامنا",
         MinicontactUs:"تواصل معنا",
+
+        FooterPages: "الصفحات",
+        FooterDepartments: "الاقسام",
+
+        Credits:"جميع الحقوق محفوظة",
 
 
 
@@ -161,7 +160,7 @@ export const MyData: any = [
         "WorkNum2" : 2,
         "WorkName2":"عمل 3",
         "WorkDes2":"نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال",
-        "workPic21": myThirdPicture,
+        "workPic21": myFirstPicture,
 
         "WorkNum3" : 3,
         "WorkName3" :"عمل 4",
@@ -171,7 +170,7 @@ export const MyData: any = [
         "WorkNum4" : 4,
         "WorkName4":"عمل 5",
         "WorkDes4":"نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال نقدم خدمة تحديث وتطوير المباني والدور والمحال",
-        "workPic41": myThirdPicture,
+        "workPic41": myFirstPicture,
     }
     
 ]
