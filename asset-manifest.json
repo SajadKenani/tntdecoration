@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tntdecoration/static/css/main.81ebac94.css",
-    "main.js": "/tntdecoration/static/js/main.57bd7c2d.js",
+    "main.css": "/tntdecoration/static/css/main.6445d816.css",
+    "main.js": "/tntdecoration/static/js/main.82b216f6.js",
     "static/js/787.9363d432.chunk.js": "/tntdecoration/static/js/787.9363d432.chunk.js",
     "static/media/False-Ceiling-Light-31.png": "/tntdecoration/static/media/False-Ceiling-Light-31.59c59185ad29312b954d.png",
     "static/media/kam-idris-_HqHX3LBN18-unsplash.jpg": "/tntdecoration/static/media/kam-idris-_HqHX3LBN18-unsplash.c81a226dbc3d06b7e618.jpg",
@@ -23,12 +23,12 @@
     "static/media/MiniClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniClickedAboutUsMiniIcon.c10e954e2eb32dd521d0.png",
     "static/media/MiniUnClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniUnClickedAboutUsMiniIcon.7cf9ba74269a706b2e89.png",
     "index.html": "/tntdecoration/index.html",
-    "main.81ebac94.css.map": "/tntdecoration/static/css/main.81ebac94.css.map",
-    "main.57bd7c2d.js.map": "/tntdecoration/static/js/main.57bd7c2d.js.map",
+    "main.6445d816.css.map": "/tntdecoration/static/css/main.6445d816.css.map",
+    "main.82b216f6.js.map": "/tntdecoration/static/js/main.82b216f6.js.map",
     "787.9363d432.chunk.js.map": "/tntdecoration/static/js/787.9363d432.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ebac94.css",
-    "static/js/main.57bd7c2d.js"
+    "static/css/main.6445d816.css",
+    "static/js/main.82b216f6.js"
   ]
 }
