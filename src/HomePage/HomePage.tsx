@@ -6,27 +6,14 @@ import "../HomePage/OurWorkSection.css";
 import "../HomePage/DepartmentSection.css";
 
 
-
 import HomePageImage from "../Images/Untitled-design-3-2048x1024.jpg";
 import { Language } from "../UpperBar/UpperBar";
 import { MyData } from "../UpperBar/MyData";
 import { MyContext } from "../App";
 
+import { useNavigate } from "react-router-dom";
 
 import AboutUsImage from "../Images/kam-idris-_HqHX3LBN18-unsplash.jpg"
-
-import ArchitecturalDesign from "../Images/3d-architectural-rendering-services-500x500 1.png"
-import DoorSliding from "../Images/doors-sliding-carousel-1-365x535_tcm90-15398 1.png"
-import GlassesImage from "../Images/Tinted-Glass-Invisible-Aluminum-Frame-Low-e-Doubl 1.png"
-import ExtortionImage from "../Images/32416139501.png"
-import DecorationImage from "../Images/istockphoto-481628382-612x612 1.png"
-import CeilingImage from "../Images/False-Ceiling-Light-31.png"
-import PackegingImage from "../Images/belmont-roofing-wall-cladding-warehouse-refurbishment 1.png"
-import SuperVisingImage from "../Images/project-management-300x205 1.png"
-import AddsImage from "../Images/what_is_the_difference_between_advertisement_and_propaganda_7428_orig 1.png"
-
-
-
 
 import myLog1 from "../UpperBar/MyLogo/image3.png"
 import CompanyOnMap from "../Images/CompanyOnMap.png"
@@ -34,7 +21,14 @@ import { Wrapper } from "@googlemaps/react-wrapper";
 
 
 export const HomePage = () => {
+
+    const navigate = useNavigate()
     const myArr = []
+
+    const myDeptArr:any = []
+    const myDeptArrImage:any = []
+    const myDeptArrAbout:any = []
+
     const myUsedContext:any = useContext(MyContext);
     const [counter, usecounter] = useState<{name: Number}>({name: 0})
 
@@ -42,16 +36,17 @@ export const HomePage = () => {
         if(0 < Number(counter.name)){
             usecounter({name: Number(counter.name) - 1})
         }else if(Object.keys(MyData).length > Number(counter.name) ){
-            usecounter({name: (Object.keys(MyData)).length })
+            usecounter({name: (Object.keys(MyData)).length - 2})
         }
     }
     const RightArrowHandleClick = () => {
-        if(Object.keys(MyData).length - 1  < Number(counter.name)){
+        if(Object.keys(MyData).length - 3  < Number(counter.name)){
             usecounter({name: 0})    
         }else{
             usecounter({name: Number(counter.name) + 1})   
         }
     }
+
     for (let i = 0; i < Object.keys(MyData[2]).length / 4; i++){
         if(MyData[2][`WorkNum${i}`] === MyData[2][`WorkNum${counter.name}`]){
             myArr.push(1)
@@ -59,14 +54,29 @@ export const HomePage = () => {
             myArr.push(0)
         } 
     }
+
+    for (let i = 0; i < Object.values(MyData[4]).length / 4; i++){
+        myDeptArr.push(MyData[4][`Department${i}`])
+        myDeptArrAbout.push(MyData[4][`AboutDepartment${i}`])
+        myDeptArrImage.push(MyData[4][`ImageDepartment${i}`])
+       
+    }
+
     const handleMiniBallClick = (id:any) =>{
         usecounter({name: Number(id)})
+    }
+
+    const handleDepartment = (b: any) => {
+        localStorage.setItem("b", `${b}`)
+        navigate(`/tntdecoration/MyDepartment${b}`)
+        window.scrollTo(0, 0)
+
     }
 
     return (
     <div style={{backgroundColor:"rgb(229, 229, 229)"}}>
         {/* Home Page Section */}
-       <div style={{boxShadow:"0px 20px 100px 50px black", width:"100%", position:"fixed", height:"2px", marginTop:"-85px", zIndex:"19"}}></div>
+       <div></div>
         {/* Main Image */}
        <img className="myImage-img" src={HomePageImage} />
 
@@ -177,159 +187,31 @@ export const HomePage = () => {
         {/* End Section//////// */}
       
         {/* Departments Section*/}
-
         <div className="mainDepts-div">
-            <div className="department-div">
-                <img className="mydeptImage-img" src={GlassesImage}></img>
+        {myDeptArr.map((a:any, b:any) => 
+        
+                <div className="department-div" onClick={() => handleDepartment(b)}>
+
+                <img className="mydeptImage-img" src={MyData[myUsedContext.myDeptId][`ImageDepartment${b}`]}></img>
 
                 <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptOne}</p>
+                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.myDeptId][`Department${b}`]}</p>
                 </div>
 
                 <div className="line-div"></div>
 
                 <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptOneDes}</p>
+                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.myDeptId][`AboutDepartment${b}`]}</p>
                 </div>
 
             </div>
     
-            <div className="department-div">
-                <img className="mydeptImage-img" src={DoorSliding}></img>
+       
+        )}
+ </div>
 
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptTwo}</p>
-                </div>
+        {/* End Section//////// */} 
 
-                <div className="line-div"></div>
-
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptTwoDes}</p>
-                </div>
-
-            </div>
-    
-            <div className="department-div">
-                <img className="mydeptImage-img" src={ArchitecturalDesign}></img>
-
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptThree}</p>
-                </div>
-
-                <div className="line-div"></div>
-
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptThreeDes}</p>
-                </div>
-
-            </div>
-  
-      
-
-   
-
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={CeilingImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptFour}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptFourDes}</p>
-                </div>
-            
-            </div>
-            
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={DecorationImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptFive}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptFiveDes}</p>
-                </div>
-            
-            </div>
-            
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={ExtortionImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptSix}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptSixDes}</p>
-                </div>
-            
-            
-    </div>   
-
- 
-
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={AddsImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptSeven}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptSevenDes}</p>
-                </div>
-            
-            </div>
-            
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={SuperVisingImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptEight}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptEightDes}</p>
-                </div>
-            
-            </div>
-            
-            <div className="department-div">
-
-                <img className="mydeptImage-img" src={PackegingImage}></img>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDeptPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptNine}</p>
-                </div>
-            
-                <div className="line-div"></div>
-            
-                <div className={`allTheDivs${myUsedContext.id}`}>
-                <p className={`myDesPara${myUsedContext.id}-para`}>{MyData[myUsedContext.id].deptNineDes}</p>
-                </div>   
-
-            </div>          
-        </div>    
-        {/* End Section//////// */}
-
-    
 </div>
 )
 }

@@ -1,6 +1,8 @@
 
 .MainDiv-div{
     width: 100%;
+    height: 350px;
+
     margin: 0 auto;
     position: fixed;
 
@@ -10,6 +12,8 @@
 
     padding: 85px;
     margin-top: -260px;
+
+  
 
     
 }
@@ -115,6 +119,17 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.282);
 }
 
+@keyframes darkOptionAppearence {
+   from{background-color: rgba(0, 0, 0, 0);}
+
+    to {background-color: rgba(0, 0, 0, 0.081);}
+}
+
+@keyframes reverseddarkOptionAppearence {
+    from{background-color: rgba(0, 0, 0, 0.081);}
+ 
+     to {background-color: rgba(0, 0, 0, 0);}
+ }
 
 .myOuterDepartmentsDiv-div{
     
@@ -129,7 +144,7 @@
     
 
     animation-name: optionsAppearence;
-    animation-duration: 0.1s;
+    animation-duration: 0.3s;
     animation-timing-function: ease-out;
 }
 
@@ -137,17 +152,26 @@
     display: flex;
    
     margin: 0 auto;
+    margin-top: -30px;
+
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+
+    border-radius: 5px;
 
     justify-content: space-around;
-    text-shadow: 2px 2px 10px rgba(66, 66, 66, 0.999);
-    width: 700px;
+    
+    width: 688px;
     height: fit-content;
     font-weight:bold;
     cursor:default;
-    color:aliceblue;
-    
-    
-    margin-top: 10px;
+    color:rgb(255, 255, 255);
+
+
+
 
     
 
@@ -195,25 +219,83 @@
 
 }
 
-.myOptions-para{
+.myOptions-para0{
     height: 70px;
     justify-self: center;
-    padding-top: 40px;
-    padding-bottom: 35px;
-    margin-top: -40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+
     padding-left: 20px;
     padding-right: 20px;
+
+    animation-name: reverseddarkOptionAppearence;
+    animation-duration: 0.2s;
+
     
+
+   
+
+}
+.myOptions-para1{
+    height: 70px;
+    justify-self: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    animation-name: reverseddarkOptionAppearence;
+    animation-duration: 0.2s;
+
     
+
    
 
 }
 
-.myOptions-para:hover{
+.myOptions-para4{
     color: rgb(249, 187, 0);
     background-color: rgba(29, 29, 29, 0.178);
     height: 70px;
    
+    animation-name:darkOptionAppearence ;
+    animation-duration: 0.2s;
+
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.myOptions-para3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 29, 29, 0);
+
+    animation-name:reverseddarkOptionAppearence ;
+    animation-duration: 0.2s;
+
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.myOptions-para0:hover{
+    color: rgb(249, 187, 0);
+    background-color: rgba(29, 29, 29, 0.178);
+    height: 70px;
+   
+    animation-name:darkOptionAppearence ;
+    animation-duration: 0.2s;
+
+
+}
+.myOptions-para1:hover{
+    color: rgb(249, 187, 0);
+    background-color: rgba(29, 29, 29, 0.178);
+    height: 70px;
+   
+    animation-name:darkOptionAppearence ;
+    animation-duration: 0.2s;
 
 
 }
@@ -229,9 +311,28 @@
 .myDepDiv-div0{
     background-color: rgb(87, 87, 87);
     margin-top: 0px;
+    padding-top: 7px;
+
+    margin-left: -19px;
     height: 293px;
 
     box-shadow: 2px 2px 10px rgb(52, 52, 52);
+}
+
+.myDepDiv-div1{
+
+    background-color: rgb(87, 87, 87);
+    margin-top: 0px;
+    padding-top: 7px;
+
+    
+
+    margin-left: 0px;
+    height: 293px;
+
+    box-shadow: 2px 2px 10px rgb(52, 52, 52);
+
+
 }
 
 @keyframes optionsAppearence {
@@ -288,7 +389,7 @@
 }
 
 .myDepDiv-div0::-ms-ticks-after{
-
+   
 
     animation-name: optionsAppearence;
     animation-duration: 0.3s;
@@ -299,25 +400,17 @@
 .myDepDiv-div1::-ms-ticks-after{
 
 
+
     animation-name: optionsAppearence;
     animation-duration: 0.3s;
     animation-timing-function: ease-out;
 }
-.myDepDiv-div1{
-    
-    background-color: rgb(87, 87, 87);
-    margin-top: -10px;
-    height: 293px;
 
-    box-shadow: 2px 2px 10px rgb(52, 52, 52);
-
-
-}
 
 
 
 .deptOption0-opt{
-    width: fit-content;
+    width: 100%;
     background-color: rgb(87, 87, 87);
     color: rgb(255, 255, 255);
     height: 30px;
@@ -326,21 +419,18 @@
     font-weight: 400;
     font-size: smaller;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
 
 
 
-    animation-name: optionsAppearence;
-    animation-duration: 0.3s;
-    animation-timing-function:ease;
-}
+    animation-name: reversedDepartmentAppearence;
+    animation-duration: 0.2s;
 
-.deptOption0-opt:hover{
-    color: rgb(249, 187, 0);
 }
 
 .deptOption1-opt{
-    width: fit-content;
+    width: 100%;
     background-color: rgb(87, 87, 87);
     color: rgb(255, 255, 255);
     height: 30px;
@@ -349,12 +439,45 @@
     font-weight: 400;
     font-size: smaller;
     cursor: pointer;
-    padding-top: 10px;
-  
+    padding-top: 5px;
+    padding-left: 20px;
+
+
+    animation-name: reversedDepartmentAppearence;
+    animation-duration: 0.2s;
+
 }
+
+@keyframes departmentAppearence{
+    from{background-color: rgb(87, 87, 87);}
+    to{background-color: rgb(47, 47, 47);}
+}
+
+@keyframes reversedDepartmentAppearence{
+    from{background-color: rgb(47, 47, 47);}
+    to{background-color: rgb(87, 87, 87);}
+}
+
+.deptOption0-opt:hover{
+    background-color: rgb(47, 47, 47);
+    
+    animation-name: departmentAppearence;
+    animation-duration: 0.2s;
+
+    
+    
+}
+
 .deptOption1-opt:hover{
-    color: rgb(249, 187, 0);
+    background-color: rgb(47, 47, 47);
+    
+    animation-name: departmentAppearence;
+    animation-duration: 0.2s;
+
+    
+    
 }
+
 
 @media only screen and (max-width: 1050px) {
     .myOptions-div{

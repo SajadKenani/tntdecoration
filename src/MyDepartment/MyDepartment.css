@@ -1,0 +1,160 @@
+.mainDiv{
+  width: 100%;
+  height: 785px;
+
+  display: flex;
+  margin-bottom: -30px;
+
+ 
+ 
+}
+
+.myMainParaDiv-div{
+  width: 52%;
+  height: 100%;
+  background-color: rgb(68, 68, 68);
+  z-index: 2;
+  opacity: 0.8;
+
+  box-shadow: 5px 0px 20px rgb(56, 56, 56);
+
+  padding: 200px;
+  padding-left: 15%;
+}
+
+@keyframes AnimatedImage {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes AnimatedImage2 {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.myMainDepartmentImagetrue{
+  position: absolute;
+  width: 100%;
+  height: 785px;
+
+  
+  object-fit: cover;
+
+  animation-name: AnimatedImage;
+  animation-duration: 0.3s;
+}
+
+.myMainDepartmentImagefalse{
+  position: absolute;
+  width: 100%;
+  height: 785px;
+
+  
+  object-fit: cover;
+
+  animation-name: AnimatedImage2;
+  animation-duration: 0.3s;
+}
+
+.myMainDepartmentPara-para0{
+  width: 350px;
+  font-size: 35px;
+  font-family: "Impact", "fantasy";
+  text-shadow: 2px 2px 10px rgb(66, 66, 66);
+  text-align: start;
+
+ 
+  color: rgb(255, 255, 255);
+}
+
+.myMainDepartmentPara-para1{
+  width: 130%;
+  font-size: 35px;
+  font-family: "Impact", "fantasy";
+  text-shadow: 2px 2px 10px rgb(66, 66, 66);
+  text-align: end;
+
+  color: rgb(255, 255, 255);
+
+  
+}
+
+.mySecoandaryDepartmentPara-para0{
+  font-size:14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 10px rgb(66, 66, 66);
+  color: rgb(227, 227, 227);
+  text-align: start;
+
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+.mySecoandaryDepartmentPara-para1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 10px rgb(66, 66, 66);
+  color: rgb(227, 227, 227);
+  text-align: start;
+
+  margin-bottom: 60px;
+
+  font-size:18px;
+   
+  width: 130%;
+  text-shadow: 2px 2px 10px rgb(66, 66, 66);
+  text-align: end;
+
+
+}
+
+.LowerWhiteSquareOfDepartment-div{
+  width: 70.25%;
+  height: 60px;
+  background-color: rgb(249, 187, 0);
+  margin-left: -10px;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.442);
+
+  padding: 5px;
+ 
+
+  z-index: 16;
+  position: absolute;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+  .myMainParaDiv-div{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .myMainParaDiv-div{
+    width: 90%;
+    
+  }
+
+  
+.myMainDepartmentPara-para0{
+  width: 300px;
+}
+
+.myMainDepartmentPara-para1{
+  width: 250px;
+  
+
+}
+
+.mySecoandaryDepartmentPara-para0{
+  width: 250px;
+}
+
+.mySecoandaryDepartmentPara-para1{
+  width: 250px;
+
+}
+
+}
