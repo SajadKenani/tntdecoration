@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tntdecoration/static/css/main.dac133bd.css",
-    "main.js": "/tntdecoration/static/js/main.c761abdb.js",
+    "main.js": "/tntdecoration/static/js/main.ceaa42ac.js",
     "static/js/787.9363d432.chunk.js": "/tntdecoration/static/js/787.9363d432.chunk.js",
     "static/media/cityscape-wall-light-new-exterior.jpg": "/tntdecoration/static/media/cityscape-wall-light-new-exterior.ec748b179455bb33bb98.jpg",
     "static/media/False-Ceiling-Light-31.png": "/tntdecoration/static/media/False-Ceiling-Light-31.59c59185ad29312b954d.png",
@@ -28,11 +28,11 @@
     "static/media/MiniUnClickedAboutUsMiniIcon.png": "/tntdecoration/static/media/MiniUnClickedAboutUsMiniIcon.7cf9ba74269a706b2e89.png",
     "index.html": "/tntdecoration/index.html",
     "main.dac133bd.css.map": "/tntdecoration/static/css/main.dac133bd.css.map",
-    "main.c761abdb.js.map": "/tntdecoration/static/js/main.c761abdb.js.map",
+    "main.ceaa42ac.js.map": "/tntdecoration/static/js/main.ceaa42ac.js.map",
     "787.9363d432.chunk.js.map": "/tntdecoration/static/js/787.9363d432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dac133bd.css",
-    "static/js/main.c761abdb.js"
+    "static/js/main.ceaa42ac.js"
   ]
 }
